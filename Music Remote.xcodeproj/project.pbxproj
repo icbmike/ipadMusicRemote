@@ -14,13 +14,13 @@
 		F781DDA11871977B00021033 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F781DDA01871977B00021033 /* main.m */; };
 		F781DDA51871977B00021033 /* MRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F781DDA41871977B00021033 /* MRAppDelegate.m */; };
 		F781DDA81871977B00021033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F781DDA61871977B00021033 /* Main.storyboard */; };
-		F781DDAB1871977B00021033 /* MRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F781DDAA1871977B00021033 /* MRViewController.m */; };
 		F781DDAD1871977B00021033 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F781DDAC1871977B00021033 /* Images.xcassets */; };
 		F781DDB41871977B00021033 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F781DDB31871977B00021033 /* XCTest.framework */; };
 		F781DDB51871977B00021033 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F781DD941871977B00021033 /* Foundation.framework */; };
 		F781DDB61871977B00021033 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F781DD981871977B00021033 /* UIKit.framework */; };
 		F781DDBE1871977B00021033 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F781DDBC1871977B00021033 /* InfoPlist.strings */; };
 		F781DDC01871977B00021033 /* Music_RemoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F781DDBF1871977B00021033 /* Music_RemoteTests.m */; };
+		F781DDCB1871A21300021033 /* MRComputerListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F781DDCA1871A21300021033 /* MRComputerListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		F781DDA31871977B00021033 /* MRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRAppDelegate.h; sourceTree = "<group>"; };
 		F781DDA41871977B00021033 /* MRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRAppDelegate.m; sourceTree = "<group>"; };
 		F781DDA71871977B00021033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F781DDA91871977B00021033 /* MRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRViewController.h; sourceTree = "<group>"; };
-		F781DDAA1871977B00021033 /* MRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRViewController.m; sourceTree = "<group>"; };
 		F781DDAC1871977B00021033 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F781DDB21871977B00021033 /* Music RemoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music RemoteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F781DDB31871977B00021033 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F781DDBB1871977B00021033 /* Music RemoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Music RemoteTests-Info.plist"; sourceTree = "<group>"; };
 		F781DDBD1871977B00021033 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F781DDBF1871977B00021033 /* Music_RemoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Music_RemoteTests.m; sourceTree = "<group>"; };
+		F781DDC91871A21300021033 /* MRComputerListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRComputerListTableViewController.h; sourceTree = "<group>"; };
+		F781DDCA1871A21300021033 /* MRComputerListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRComputerListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +115,10 @@
 				F781DDA31871977B00021033 /* MRAppDelegate.h */,
 				F781DDA41871977B00021033 /* MRAppDelegate.m */,
 				F781DDA61871977B00021033 /* Main.storyboard */,
-				F781DDA91871977B00021033 /* MRViewController.h */,
-				F781DDAA1871977B00021033 /* MRViewController.m */,
 				F781DDAC1871977B00021033 /* Images.xcassets */,
 				F781DD9B1871977B00021033 /* Supporting Files */,
+				F781DDC91871A21300021033 /* MRComputerListTableViewController.h */,
+				F781DDCA1871A21300021033 /* MRComputerListTableViewController.m */,
 			);
 			path = "Music Remote";
 			sourceTree = "<group>";
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F781DDCB1871A21300021033 /* MRComputerListTableViewController.m in Sources */,
 				F781DDA11871977B00021033 /* main.m in Sources */,
-				F781DDAB1871977B00021033 /* MRViewController.m in Sources */,
 				F781DDA51871977B00021033 /* MRAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,10 +381,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Music Remote/Music Remote-Prefix.pch";
 				INFOPLIST_FILE = "Music Remote/Music Remote-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -394,10 +396,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Music Remote/Music Remote-Prefix.pch";
 				INFOPLIST_FILE = "Music Remote/Music Remote-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
